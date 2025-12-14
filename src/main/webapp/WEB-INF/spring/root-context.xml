@@ -15,12 +15,13 @@
 	<task:annotation-driven/>
 	
 	<context:component-scan base-package="com.exe.fund"/>
+	<context:property-placeholder location="classpath:db.properties"/>
 	
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-		<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
-		<property name="username" value="YOUR_DB_USERNAME"/>
-		<property name="password" value="YOUR_DB_PASSWORD"/>
+		<property name="driverClassName" value="${db.driver}"/>
+		<property name="url" value="${db.url}"/>
+		<property name="username" value="${db.username}"/>
+		<property name="password" value="${db.password}"/>
 	</bean>	
 	
 	<bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
