@@ -30,7 +30,7 @@ replay_pid*
 .project
 .factorypath
 .springBeans
-.properties
+src/main/webapp/WEB-INF/spring/db.properties
 
 # Build
 target/
