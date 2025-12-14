@@ -8,18 +8,18 @@ NovaFund는 사용자가 프로젝트를 등록하고 펀딩에 참여할 수 �
 
 ## 기술 스택
 
-###Backend
+##Backend
 - Spring Framework(MVC)
 - Spring Security
 
-###Frontend
+##Frontend
 - JSP
 - HTML/CSS/JavaScript
 
-###Database
+##Database
 - Oracle DB
 
-###Server/Tool
+##Server/Tool
 -Apache Tomcat
 -Git / Github
 
