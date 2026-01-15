@@ -83,7 +83,7 @@ DB 접속 정보는 보안 및 환경 분리를 위해 Git에 직접 포함하�
 ## 실행 방법
 ### 환경
 - JDK 8 이상
-- Apache Tomcat 9
+- Apache Tomcat 8.5
 - Oracle DB
 
 ### DB설정
